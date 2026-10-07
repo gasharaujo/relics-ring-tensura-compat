@@ -1,0 +1,45 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="relics_tensura_ep_compat"
+version="1.0.0"
+displayName="Relics Tensura EP Compat"
+authors="Gasharaujo"
+description='''
+Impede que a habilidade Gula do Anel dos Sete Pecados Capitais do Relics
+multiplique os atributos de Aura e Magículas que formam o EP do Tensura,
+além de preservar o tamanho normal do jogador.
+'''
+
+[[mixins]]
+config="relics_tensura_ep_compat.mixins.json"
+
+[[dependencies.relics_tensura_ep_compat]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.248,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.relics_tensura_ep_compat]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.relics_tensura_ep_compat]]
+modId="relics"
+type="required"
+versionRange="[0.12.8,0.13)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.relics_tensura_ep_compat]]
+modId="tensura"
+type="required"
+versionRange="[2.0.1.1,2.1)"
+ordering="AFTER"
+side="BOTH"

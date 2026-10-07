@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.codex.relicstensuraep.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "RingGluttonyEpCompatMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
